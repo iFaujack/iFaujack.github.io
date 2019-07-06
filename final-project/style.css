@@ -1,0 +1,75 @@
+body {
+    padding: 6em;
+    height: 10vh;
+    background: url('87532.jpg');
+    background-size: cover;
+}
+
+.game {
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #ccc;
+    background-color: rgba(243,243, 243, 0.9);
+    text-align: center;
+}
+
+h1 {
+    margin: 0 50px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    font-size: 50px;
+}
+
+.answer {
+    margin-top: 20px;
+}
+
+#answer {
+    background-color: transparent;
+    border:10px;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    flex: 100%;
+    margin-top: 50px;
+}
+
+.question {
+    text-align: center;
+    margin: 80px 0 40px;
+}
+
+.question > h2 {
+    letter-spacing: 10px;
+    font-size: 80px;
+}
+
+.form-group > * {
+    margin-top: 10px;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.score-board {
+    margin: 20px;
+}
+
+.score-board > span {
+    font-size: 20px;
+}
+
+*{
+   font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
