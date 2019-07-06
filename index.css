@@ -1,0 +1,263 @@
+body{
+    background: linear-gradient(45deg, #1d976c 0%,#93f9b9 100%);
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.section-content{
+    background: #EFF3F7;
+    width: 90vw;
+    height: 90vh;
+    margin: 5vh 5vw;
+    display: flex;
+}
+
+.section-content-100{
+    width: 100vw;
+    height: 100vh;
+    background: #EFF3F7;
+    text-align: center;
+}
+
+.biografi{
+    display: flex;
+    margin-top: 50px;
+}
+
+.side-right{
+    flex-basis: 60%;
+    padding: 5vh;
+    height: 80vh; 
+    margin: 30px;
+    color: black;
+    display: inline-block;
+}
+
+.side-right a {
+    text-decoration: none;
+    color: red;
+}
+
+.side-left{
+    flex-basis: 40%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.content-radius{
+    background: white;
+    border-radius: 5px;
+    box-shadow:  3px 3px #888888;
+    width: 100%;
+    padding: 20px;
+    margin: 10px auto;  
+    /* margin: 10px 20px; */
+    height: 60vh;
+}
+
+.biografi > div {
+    flex-basis: 50%;
+}
+
+.biografi > div ul {
+    list-style: none;
+}
+
+.biografi > div li {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.biografi > div i {
+    font-size: 16px;
+    color: #1d976c;
+}
+span.transparent{
+    color: rgba(10, 10, 10, 0.5);
+}
+
+.title{
+    margin-top: 50px;
+    border-left: 5px solid #E3872D;
+    padding-left: 10px;
+    color: black;
+}
+
+.title h2 {
+    margin: 5px;
+}
+
+h2 span{
+    color: #1d976c;
+
+}
+
+h3 span {
+    color: #E3872D;
+}
+
+.title p {
+    margin: 5px;
+}
+
+.content-radius p {
+    width: 90%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.photo-profile{
+    width: 34.5%;
+    height: 90vh;
+    background-image: url('https://instagram.fcgk8-2.fna.fbcdn.net/vp/a141c9353a6a76e490cc51e3fc6f3a26/5D66FADA/t51.2885-15/e35/33546107_2085541131689094_8771866460310994944_n.jpg?_nc_ht=instagram.fcgk8-2.fna.fbcdn.net&_nc_cat=106');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* Section Skill */
+
+
+.title-bottom{
+    margin: 50px auto;
+    color: black;;
+    position: relative;
+    width: 100%;
+    right: 0;
+    display: block;
+    height: min-content;
+    
+}
+
+.title-bottom h2{
+    padding: 50px 10px 10px 10px;
+    margin: 0 auto;
+    border-bottom: 5px solid #E3872D;
+    max-width: 20vw;
+}
+
+.content-80 {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: white;
+    margin-top: 30px;
+    height: 80vh;
+    display: flex;
+}
+
+.panel-50{
+    flex-basis: 50%;
+    text-align: left;
+    margin: 50px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.no-gutters {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.card-education {
+    -ms-flex: 0 0 40%;
+    flex: 0 0 50%;
+    max-width: 40%;
+    border: 2px solid #eff3f7;
+    margin: 30px 10px;
+}
+
+.card-education h4{
+    background: #eff3f7;
+    color: #1b7c65;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.card-education p {
+    padding: 20px 10px;
+    color: black;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.skill-form{
+    color: black;
+}
+
+.skill-form h4{
+    text-align: left;
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+h4.percent-skill {
+    text-align: right;
+}
+
+.percent-wrapper {
+    height: 30px;
+    width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+    overflow: hidden;
+    border-color: #eff3f7;
+    border-width: 2px;
+}
+
+.percentage{
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #1d976c;
+    border-radius: .25rem;
+    display: block;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    height: -webkit-calc(100% + 2px);
+    height: -moz-calc(100% + 2px);
+    height: calc(100% + 2px);
+    position: absolute;
+    top: -1px;
+}
+
+#java{
+    width: 50%;
+}
+
+#pascal {
+    width: 30%;
+}
+
+#html{
+    width: 20%;
+}
+
+#js{
+    width: 10%;
+}
+
+#reactnative{
+    width: 10%;
+}
+
+
+
